@@ -1,0 +1,3 @@
+rootProject.name = 'weather_kotlin_mpp'
+
+include ':app'
