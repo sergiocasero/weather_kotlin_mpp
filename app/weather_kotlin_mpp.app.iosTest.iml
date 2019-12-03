@@ -4,9 +4,9 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId=":app">
         <sourceSets>
-          <sourceSet>weather_kotlin_mpp.app.commonTest</sourceSet>
-          <sourceSet>weather_kotlin_mpp.app.iosMain</sourceSet>
           <sourceSet>weather_kotlin_mpp.app.commonMain</sourceSet>
+          <sourceSet>weather_kotlin_mpp.app.iosMain</sourceSet>
+          <sourceSet>weather_kotlin_mpp.app.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
