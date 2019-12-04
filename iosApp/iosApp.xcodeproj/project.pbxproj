@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49B98F9C239834FC00FF9CD2 /* ForecastViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B98F9B239834FC00FF9CD2 /* ForecastViewCell.swift */; };
 		F861D7E1207FA40F0085E80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861D7E0207FA40F0085E80D /* AppDelegate.swift */; };
 		F861D7E3207FA40F0085E80D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861D7E2207FA40F0085E80D /* HomeViewController.swift */; };
 		F861D7E6207FA40F0085E80D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F861D7E4207FA40F0085E80D /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49B98F9B239834FC00FF9CD2 /* ForecastViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewCell.swift; sourceTree = "<group>"; };
 		F861D7DD207FA40F0085E80D /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F861D7E0207FA40F0085E80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F861D7E2207FA40F0085E80D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				F861D7E4207FA40F0085E80D /* Main.storyboard */,
 				F861D7E9207FA4100085E80D /* LaunchScreen.storyboard */,
 				F861D7EC207FA4100085E80D /* Info.plist */,
+				49B98F9B239834FC00FF9CD2 /* ForecastViewCell.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B98F9C239834FC00FF9CD2 /* ForecastViewCell.swift in Sources */,
 				F861D7E3207FA40F0085E80D /* HomeViewController.swift in Sources */,
 				F861D7E1207FA40F0085E80D /* AppDelegate.swift in Sources */,
 			);
@@ -364,6 +368,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -419,6 +424,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
