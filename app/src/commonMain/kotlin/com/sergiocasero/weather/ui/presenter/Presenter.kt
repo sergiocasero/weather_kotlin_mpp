@@ -6,7 +6,7 @@ import com.sergiocasero.weather.ui.executor.Executor
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 
-abstract class Presenter<out V : Presenter.View>(
+abstract class Presenter<out V : View>(
     protected val errorHandler: ErrorHandler,
     executor: Executor,
     val view: V
@@ -23,10 +23,10 @@ abstract class Presenter<out V : Presenter.View>(
 
     fun detach() = job.cancel()
 
-    interface View {
-        fun showProgress()
-        fun hideProgress()
-        fun showRetry(error: String, f: () -> Unit)
-    }
 }
 
+interface View {
+    fun showProgress()
+    fun hideProgress()
+    fun showRetry(error: String, f: () -> Unit)
+}
